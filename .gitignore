@@ -21,3 +21,45 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+# GIT
+*.orig
+
+# OS related file
+.DS_STORE
+.DS_Store
+
+# dependencies
+*.swp
+node_modules
+coverage
+dist
+build
+
+# editor
+.idea
+.vscode
+.scannerwork/
+
+# environment config file
+.env
+
+# build related file
+.babelCache
+.happypack
+build/*
+webpack-stats.json
+
+dump.rdb
+database.sqlite
+
+logs/
+*.report.html
+*.log
+*.log.*.gz
+
+!.gitkeep
